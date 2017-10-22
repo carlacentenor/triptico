@@ -1,0 +1,127 @@
+.content{
+  display: inline-block;
+
+  height: 614px;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+.encabezado{
+position: relative;
+top: 0;
+border: 1px solid black;
+width: 632px;
+height: 34px;
+margin: 0;
+background-color: #ffc107;
+padding: 0;
+}
+.encabezado p {
+  position: relative;
+top: -10px;
+bottom: 0;
+  font-size: 21px;
+padding-top: 0;
+padding-bottom: 10px;
+}
+.coluright ,.colucenter ,.coluleft{
+float: left;
+border: 1px solid black;
+margin: 0;
+
+}
+.coluright{
+  position: relative;
+  left: 0px;
+  top: -1px;
+
+  width: 180px;
+  height: 547px;
+  margin: 0;
+}
+.colucenter{
+  position: relative;
+  left: -1px;
+  width: 260px;
+  height: 547px;
+  margin: 0;
+top: -1px;
+
+}
+.coluleft{
+  position: relative;
+  width: 190px;
+  height: 547px;
+  margin: 0;
+  top: -1px;
+  left: -1.5px;
+
+}
+
+
+.footer{
+position: absolute;
+top: 583.1px;
+border: 1px solid black;
+width: 632px;
+height: 30px;
+margin: 0;
+background-color: #ffc107;
+}
+
+div.encabezado p:first-child{
+  text-align: center;
+
+}
+
+a {
+  color: #5f3278;
+}
+
+div p {
+  margin: 15px;
+  text-align: justify;
+  font-size: 17px;
+}
+
+div .colucenter p:first-child, div .coluleft p:first-child, div .coluright p:first-child{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 12px;
+  font-size: 25px;
+
+}
+
+.colucenter p:first-child {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+div .footer p:first-child {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+position: relative;
+bottom: 10px;
+}
+
+
+.caja1{
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 50px;
+}
+
+.caja2{
+  width: 160px;
+  height: 160px;
+  position: relative;
+  top: 40px;
+  left: 15px;
+}
+.contenidocenter{
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
